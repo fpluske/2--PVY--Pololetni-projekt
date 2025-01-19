@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: rgb(22, 22, 22);
+}
+
+.geeks {
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
