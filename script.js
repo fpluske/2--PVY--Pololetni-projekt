@@ -102,6 +102,9 @@ function konecObraz() {
         textPresPole(`Skóre: ${score}`, "40px Arial", "red", board.width / 2 - 80, board.height / 2 + 50);
     };
     zvukKonecHry.play();
+    document.addEventListener('keydown', function () {
+        location.reload();
+    });
 }
 
 function zmenaSmeru() {
